@@ -1,0 +1,14 @@
+-
+  request:
+    url: /test/:id
+    method: GET
+  response:
+    status: 200
+    file: test/id.json
+-
+  request:
+    url: /base/hello
+    method: GET
+  response:
+    status: 200
+    file: base/hello.json
